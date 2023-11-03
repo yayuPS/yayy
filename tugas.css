@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+*{
+			font-family: 'Poppins';
+		}
+		
+	body{
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: antiquewhite;
+		}
+		
+		body .Lgn{
+			border: 10px;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-bottom: 40px;
+			padding-top: 10px;
+			background-color: #F0FFFF;
+			border-radius: 20px;
+		}
+		
+        body .Lgn h1 {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        body .Lgn h4{
+            margin-bottom: 1px;
+        }
+
+        body .Lgn input{
+            margin-bottom: 10px;
+            width: 400px;
+            height: 40px;
+            padding-left: 20px;
+            background-color: #F5F5DC;
+            border: none;
+            border-radius: 20px;
+            font-weight: 600px;
+        }
+        .lgn p{
+            text-align: right;
+            margin-top: -8px;
+        }
+        
+        body .Lgn p a{
+        text-decoration: none;
+
+    }
+
+    body .Lgn p a:hover{
+        color: black;
+    }
+
+    body .btn-lgn{
+        cursor: pointer;
+        border-radius: 20px;
+        border: none;
+        width: 100%;
+        height: 40px;
+        background-color: blue;
+        color: #F0FFFF;
+        margin-top: 20px;
+    }
+
+    body .btn-lgn:hover{
+        cursor: pointer;
+        border-radius: 20px;
+        width: 100%;
+        height: 40px;
+        background-color: #F5F5DC;
+        color: black;
+    }
+
+    .btn-dft{
+        cursor: pointer;
+        border-radius: 20px;
+        border: none;
+        width: 100%;
+        height: 40px;
+        background-color: #e5e9f2;
+        color: #000;
+        margin-top: 20px;
+    }
+
+    .btn-ggl{
+        cursor: pointer;
+        border-radius: 20px;
+        border: none;
+        width: 100%;
+        height: 40px;
+        background-color: #000;
+        color: #fff;
+        margin-top: 20px;
+    }
+
+    body .Lgn .btn-ggl .img-ggl{
+        vertical-align: middle;
+        width: 40px;
+        padding-right: 5px;
+        padding-bottom: 4px;
+
+    }
+
+
+		
